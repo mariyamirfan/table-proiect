@@ -1,0 +1,142 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    font-size: 1.3vw;
+
+}
+ 
+.name {
+    color: black;
+    font-size: 40px;
+    text-align: center;
+
+}
+#contect {
+    text-decoration: none;
+    height: 92vh;
+    width: 70%;
+    background-color: rgb(188, 115, 230);
+    margin: 0 auto;
+    margin-top: 1rem;
+    color: white;
+}
+
+#banner {
+    height: 18vh;
+    width: 100%;
+    border: 0.2rem solid black;
+    text-align: center;
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+#navigation {
+    height: 7vh;
+    width: 100%;
+    border: 0.2rem solid black;
+    text-align: center;
+    box-sizing: border-box;
+    border-top: none;
+    padding-top: 0.61rem;
+}
+
+#footer {
+    height: 12vh;
+    width: 100%;
+    border: 0.2rem solid black;
+    box-sizing: border-box;
+    border-top: none;
+    text-align: center;
+    padding-top: 1.8rem;
+}
+
+#left {
+    height: 100%;
+    width: 60%;
+    border-right: 0.2rem solid black;
+    text-align: center;
+    padding-top: 9rem;
+    box-sizing: border-box;
+}
+
+#right {
+    padding: 0.4rem 2rem 0.4rem 2rem;
+    box-sizing: border-box;
+}
+
+#box {
+    height: 55vh;
+    display: flex;
+    width: 100%;
+    border: 0.2rem solid black;
+    box-sizing: border-box;
+    border-top: none;
+}
+
+#xyz {
+    height: 40%;
+    display: flex;
+    width: 25vw;
+    box-sizing: border-box;
+}
+
+#picture {
+    height: 100%;
+    width: 40%;
+    border: 0.2rem solid black;
+    box-sizing: border-box;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#about {
+    height: 100%;
+    width: 58%;
+    border: 0.2rem solid black;
+    box-sizing: border-box;
+    margin-left: 0.5rem;
+    text-align: center;
+    padding-top: 3rem;
+}
+
+#recent {
+    height: 50%;
+    width: 100%;
+    border: 0.2rem solid black;
+    box-sizing: border-box;
+    margin-top: 0.3rem;
+    text-align: center;
+    padding-top: 3.6rem;
+}
+.name:hover {
+    color: red;
+    font-size: 50px;
+    text-align: center;
+    background: rgba(207, 116, 177, 0.76);
+}
+#banner:hover{
+    color: red;
+    background: rgba(207, 116, 177, 0.76);
+    font-size: 30px;
+}
+#navigation:hover{
+    color: red;
+    background: rgba(207, 116, 177, 0.76);
+    font-size: 20px;
+}
+#footer:hover{
+    color: red;
+    background: rgba(207, 116, 177, 0.76);
+    font-size: 30px;
+}
+#left:hover{
+    color: red;
+    background: rgba(207, 116, 177, 0.76);
+    font-size: 30px;
+}
+#right:hover{
+    color: red;
+    background: rgba(207, 116, 177, 0.76);
+    font-size: 30px;
+}
